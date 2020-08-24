@@ -1,0 +1,72 @@
+#outside {
+  z-index: 1;
+  position: absolute;
+  background-color: rgb(255, 206, 236);
+  background-image: url('https://i.pinimg.com/736x/97/af/ab/97afabd0a1cfd498065342db18b82532.jpg');
+  background-repeat: no-repeat;
+  background-position: 50%;
+  width: 100%;
+  height: 100%;
+  text-align: center;
+  transition: 1s;
+  transform-origin: 0;
+}
+
+.open-card {
+  transform: rotateY(90deg);
+}
+
+#outside-title {
+  color: black;
+  font-family: "Comic Sans MS", "Comic Sans";
+  font-size: 20pt;
+  text-align: center;
+}
+
+#outside-pic {
+  width: 150px;
+  height: 150px;
+}
+
+#outside-help {
+  color: black;
+  font-family: Courier;
+  font-size: 12pt;
+  text-align: center;
+  padding: 20px;
+}
+
+#inside {
+  z-index: 0;
+  position: absolute;
+  background-image: url('https://i.pinimg.com/736x/97/af/ab/97afabd0a1cfd498065342db18b82532.jpg') ;
+  background-repeat: no-repeat;
+  background-position: 50%;
+  width: 100%;
+  height: 100%;
+  text-align: center;
+  
+}
+
+#inside-title {
+  color: black;
+  font-family: "Comic Sans MS", "Comic Sans";
+  font-size: 12pt;
+  text-align: center;
+}
+
+#inside-pic {
+  width: 150px;
+  height: 150px;
+}
+
+#message {
+  color: black;
+  font-family: "Comic Sans MS", "Comic Sans";
+  font-size: 12pt;
+  text-align: center;
+}
+
+button {
+  background: silver;
+}
