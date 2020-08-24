@@ -53,6 +53,7 @@
   font-family: "Comic Sans MS", "Comic Sans";
   font-size: 12pt;
   text-align: center;
+  background: white;
 }
 
 #inside-pic {
@@ -63,7 +64,7 @@
 #message {
   color: black;
   font-family: "Comic Sans MS", "Comic Sans";
-  font-size: 12pt;
+  font-size: 11pt;
   text-align: center;
 }
 

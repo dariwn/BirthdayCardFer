@@ -1,5 +1,6 @@
 function open_card() {
   document.getElementById('cerrar').style.display = '';
+  
   document.getElementById('outside').className = 'open-card';
   
 }
